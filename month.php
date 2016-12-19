@@ -1,44 +1,45 @@
 <?php
 
+echo "Put any kay". ' ';
 $handle = fopen ("php://stdin","r");
-$number = fgets($handle);
+$m = fgets($handle);
 
 
-if ($m == "Jan") {
-	echo "Today January";
+if ($m == 1) {
+	echo "Now January";
 }
-elseif ($m == "Fab") {
-	echo "Today Fabruary";
+elseif ($m == 2) {
+	echo "Now Fabruary";
 }
-elseif ($m == "Mar") {
-	echo "Today March";
+elseif ($m == 3) {
+	echo "Now March";
 }
-elseif ($m == "Apr") {
-	echo "Today April";
+elseif ($m == 4) {
+	echo "Now April";
 }
-elseif ($m == "May") {
-	echo "Today May";
+elseif ($m == 5) {
+	echo "Now May";
 }
-elseif ($m == "Jun") {
-	echo "Today June";
+elseif ($m == 6) {
+	echo "Now June";
 }
-elseif ($m == "Jul") {
-	echo "Today July";
+elseif ($m == 7) {
+	echo "Now July";
 }
-elseif ($m == "Aug") {
-	echo "Today August";
+elseif ($m == 8) {
+	echo "Now August";
 }
-elseif ($m == "Sep") {
-	echo "Today September";
+elseif ($m == 9) {
+	echo "Now September";
 }
-elseif ($m == "Oct") {
-	echo "Today October";
+elseif ($m == 10) {
+	echo "Now October";
 }
-elseif ($m == "Nov") {
-	echo "Today November";
+elseif ($m == 11) {
+	echo "Now November";
 }
-elseif ($m == "Dec") {
-	echo "Today December";
+elseif ($m == 12) {
+	echo "Now December";
 }
 else {
 	echo "Guys dont kidding, only 12 month ;)";
